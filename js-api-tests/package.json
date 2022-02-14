@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@strelka-skaut/js-api-client": "^1.0.6"
+  },
+  "scripts": {
+    "test": "uvu tests-dist",
+    "build": "npm run build:tsc",
+    "build:tsc": "rm -r tests-dist/* && tsc"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "typescript": "^4.5.5",
+    "uvu": "^0.5.3"
+  }
+}
